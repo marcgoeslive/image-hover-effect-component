@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="SnippetImageHover.js"></script>
+    <style>
+        .js-image-hover .tooltip{
+            position:absolute;
+            z-index:1000;
+            background-color:#2bbfb1;
+            border:1px solid #edeaea;
+            padding:10px;
+            display:none;
+            font-family:Arial;
+            color:#fff;
+        }
+
+        .js-image-hover{
+			margin-left:300px;
+        }
+		
+        .js-image-hover canvas{
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- IMAGE HOVER OBJECT -->
+    <div class="js-image-hover">
+        <!-- CONFIG -->
+        <div class="collider" rectx="0" recty="0" rectwidth="0" rectheight="0" image="Image/Standard.png" link="http://www.google.de" id="standard"></div>
+        <div class="collider" rectx="0" recty="0" rectwidth="560" rectheight="155" image="Image/Selection-1.png" link="http://www.pepperl-fuchs.de/germany/de/classid_2475.htm?view=productselection&amxattrib=a_190%2F107817#overview" text="RFID Schreib-/Leseköpfe">
+            <div class="pointer" rectx="240" recty="110"></div>
+        </div>
+        <div class="collider" rectx="0" recty="155" rectwidth="450" rectheight="101" image="Image/Selection-1.png" link="http://www.pepperl-fuchs.de/germany/de/classid_2475.htm?view=productselection&amxattrib=a_190%2F107817#overview" text="RFID Schreib-/Leseköpfe">
+            <div class="pointer" rectx="240" recty="110"></div>
+        </div>
+        <div class="collider" rectx="450" recty="155" rectwidth="350" rectheight="101" image="Image/Selection-2.png" link="http://www.pepperl-fuchs.de/germany/de/classid_2475.htm?view=productselection&amxattrib=a_190%2F108024#overview" text="RFID Transponder">
+            <div class="pointer" rectx="560" recty="190"></div>
+        </div>
+        <div class="collider" rectx="560" recty="0" rectwidth="240" rectheight="155" image="Image/Selection-3.png" link="http://www.pepperl-fuchs.de/germany/de/classid_2474.htm" text="RFID Auswerteeinheiten">
+            <div class="pointer" rectx="650" recty="80"></div>
+        </div>
+    </div>
+    <!-- IMAGE HOVER OBJECT -->
+</body>
+</html>

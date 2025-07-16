@@ -1,0 +1,36 @@
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+cmake-build-*/
+
+# JIRA Plugin
+atlassian-ide-plugin.xml
+
+# Cache file creation bug
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# File-based project format
+*.iws
+
+# MPX
+.mpx/
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# Sonarlint
+.idea/sonarlint/
+
+# IntelliJ
+out/
